@@ -1,0 +1,9 @@
+To list all the S3 Buckets 
+ aws s3 ls 
+
+To list particular bucket 
+ aws s3 ls s3://bucketname
+
+To create a S3 bucket 
+ aws s3 mb s3://uniquename
+
