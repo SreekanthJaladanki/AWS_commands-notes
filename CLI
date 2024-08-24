@@ -7,3 +7,15 @@ To list particular bucket
 To create a S3 bucket 
  aws s3 mb s3://uniquename
 
+To Upload a file from EC2 to S3 (Put Object)
+ aws s3 cp sourcefile S3://bucketname
+
+To Download a file from S3 to EC2 (Get Object)
+ aws s3 cp s3://bucketname/filename Destination_path
+
+To Download all files from S3 to EC2
+ aws s3 sync s3://bucketname Destination_Path
+
+To remove a file in S3 bucket
+ aws s3 rm s3://bucketname/filename
+
